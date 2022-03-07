@@ -1,0 +1,16 @@
+
+@font-face{
+    font-family: 'logo-font';
+    src: url('https://cdn.jsdelivr.net/gh/smurfs9/PicgoCDN/files/FZShengSKSJW_Zhong.TTF');   
+}
+
+.inner {
+    font-family: 'logo-font';
+}
+
+.use-middle {
+    font-family: 'logo-font';
+}
+.copyright {
+    font-family: 'logo-font';
+}

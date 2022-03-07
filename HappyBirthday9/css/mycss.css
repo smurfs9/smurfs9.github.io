@@ -1,0 +1,9 @@
+
+@font-face{
+    font-family: 'bodyfont';
+    src: url('https://cdn.jsdelivr.net/gh/smurfs9/PicgoCDN/files/FZShengSKSJW_Cu.TTF');   
+}
+
+body {
+    font-family: 'bodyfont';
+}

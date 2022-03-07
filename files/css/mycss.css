@@ -1,0 +1,139 @@
+.icon-xxx:before {
+    content: "\e600";
+}
+  /* 卡片处小图标 */
+.card_icon {
+    /* 修改颜色 */
+    color: #dfaeee;
+    /* 修改大小 */
+    font-size: 24px;
+}
+
+@font-face{
+  font-family: 'logo-font';
+  src: url('https://cdn.jsdelivr.net/gh/smurfs9/PicgoCDN/files/20210609092607.ttf');   
+}
+.logo-font {
+  font-family: 'logo-font';
+}
+ /* 全局字体 */
+  /* https://cdn.jsdelivr.net/gh/smurfs9/PicgoCDN/files/FZShengSKSJW_Zhong.TTF */
+@font-face{
+  font-family: 'bodyfont';
+  src: url('https://cdn.jsdelivr.net/gh/smurfs9/PicgoCDN/files/FZShengSKSJW_Cu.TTF');   
+}
+body {
+  font-family: 'bodyfont'!important;
+}
+.article-container pre, #article-container code {
+  font-family: 'bodyfont' !important;
+}
+
+ /* 首页标题字体 */
+#page-header #site-title {
+  font-size: 4em!important;
+}
+
+
+ /* 代码块字体 */
+.line {
+  font-family: 'bodyfont'!important;
+}
+ /* 相册相片描述字体 */
+.jg-caption {
+  font-family: 'bodyfont'!important;
+}
+
+.logo_center {
+  /* 修改颜色 */
+  color: #49b1f5;
+  /* 修改大小 */
+  font-size: 1.2em
+}
+.aplayer.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+}
+.aplayer-body:hover {
+  left: 0px !important
+}
+/*
+.aplayer .aplayer-miniswitcher {
+  border-radius: 0 30px 30px 0 !important;
+}
+*/
+/* 歌词颜色*/
+.aplayer .aplayer-lrc p.aplayer-lrc-current {
+  /* 大小 */
+  font-size: 15px;
+  /* 颜色 */
+  color: #f1941b;
+  opacity: 1;
+  overflow: visible;
+  height: auto !important;
+  min-height: 16px;
+}
+
+.aplayer .aplayer-lrc p {
+  font-weight: 600;
+  font-size:14px;
+  color:rgba(179, 18, 18, 0);
+  line-height:16px!important;
+  height:16px!important;
+  padding:0!important;
+  margin:0!important;
+  transition:all .5s ease-out;
+  opacity:.4;
+  overflow:hidden
+}
+ /* 歌名字体 */
+.aplayer-body {
+  font-family: 'bodyfont'!important;
+}
+ /* 歌词字体 */
+.aplayer-lrc-contents {
+  font-family: 'bodyfont'!important;
+}
+
+
+.bangumi-title a {
+  color: #ce2c12 !important;
+}
+
+.bangumi-button {
+  color: #ce2c12 !important;
+}
+
+:root{
+  --heo-white: #fff;
+  --heo-blue: #286dea;
+  --heo-none: rgba(0,0,0,0);
+  --heo-gray: #999999;
+}
+[data-theme=light] {
+  --heo-fontcolor: #000;
+  --heo-background: #fff;
+  --heo-maskbg: rgba(255, 255, 255, 0.6);
+  --heo-navbg: rgba(255, 255, 255, 0.9);;
+  --heo-hovertext: #286dea;
+  --heo-ahoverbg: #F7F7FA;
+  --heo-lighttext: #ef794f;
+  --heo-secondtext: rgba(0, 0, 0, 0.6);
+  --heo-card-btn-bg: #F7F7FA;
+  --heo-post-blockquote-bg: #f2f5f7;
+  --heo-sceondbg: #F7F7FA;
+}
+[data-theme=dark] {
+  --heo-fontcolor: #fff;
+  --heo-background: #1e1e1e;
+  --heo-maskbg: rgba(0,0,0, 0.6);
+  --heo-navbg: rgba(0,0,0, 0.9);
+  --heo-hovertext: #286dea;
+  --heo-ahoverbg: #fff;
+  --heo-lighttext: #f2b94b;
+  --heo-secondtext: rgba(255, 255, 255, 0.6);
+  --heo-card-btn-bg: #3f3f3f;
+  --heo-post-blockquote-bg: #000;
+  --heo-sceondbg: #252627;
+}
+
+
